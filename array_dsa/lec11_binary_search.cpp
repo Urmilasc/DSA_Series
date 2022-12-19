@@ -37,6 +37,6 @@ int main()
 	cout<<"the element is present at index : "<<index<<endl;
 	
 	
-	int oddindex = binarysearch(odd , 5 , 3);
-	cout<<"the element is present at index : "<<oddindex<<endl;
+	// int oddindex = binarysearch(odd , 5 , 3);
+	// cout<<"the element is present at index : "<<oddindex<<endl;
 }

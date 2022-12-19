@@ -1,0 +1,25 @@
+// 1 2 3 
+// 4 5 6
+// 7 8 9
+
+#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n , m;
+
+    cout<<"Enter number of rows:";
+    cin>>n;
+    cout<<"Enter nuber of coloums:";
+    cin>>m;
+
+     int count=1;
+     for(int i =0 ; i<n ; i++){
+        for(int j= 0 ; j<m ; j++){
+            cout<<count<<" ";
+            count= count+1;
+        }
+        cout<<endl;
+     }
+}

@@ -116,6 +116,20 @@ void print(node* &head)
 }
 
 
+int lengthofLL(node* &head , int length)
+{
+    
+    node *Current    = head -> next;
+    while ( Current != NULL )
+        {
+            Current = Current->next;
+            length++;
+        }
+    // At the last iteration we have reached the end/tail/last node
+        return length;
+    
+}
+
 int main()
 {
    
@@ -140,6 +154,10 @@ int main()
 
     deletenode(4 , head);
     print(head);
+    
+    int len = 1;
+    int ans=lengthofLL(head ,len );
+    cout<<endl<<ans;
     
     
 }
